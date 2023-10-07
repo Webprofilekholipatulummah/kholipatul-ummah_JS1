@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas JavaScript Kholifatul Ummah</title>
+</head>
+<body>
+  <h1>Kholifatul Ummah</h1><p>Tugas JavaScript</p><hr>
+<script> 
+
+// Variable yg akan digunakan
+let uang = 1000000;
+let a = 0;
+let b = 0;
+let hari;
+
+// Awal Script If Else
+document.write("<h1>If Else</h1>");
+if (uang > 5000000) {
+   document.write("Abis Gajian nihh"); 
+} else if (uang == 1000000) {
+    document.write("Masih ada sisa gajian nihh");
+} else {
+    document.write("udah gak punya uang nihh");
+}
+// akhir Script If Else
+
+
+// Awal Script For Statement
+document.write("<h1>For Statement</h1>");
+for (a = 0; a < 11; a++){
+    document.write(a);
+}
+// Akhir Script For Statement
+
+
+// Awal Script Switch Case
+document.write("<h1>Switch Case</h1>");
+switch (new Date().getDay()) {
+  case 0:
+    hari = "Liburan nihh";
+    break;
+  case 1:
+    hari = "Hari Baik";
+    break;
+  case 2:
+     hari = "hari kedua, masih lama buat liburan hehehe";
+    break;
+  case 3:
+    hari = "Tenang masih ada 4 hari menuju liburan";
+    break;
+  case 4:
+    hari = "pasti gak bakalan kerasa nih bentaran lagi liburan";
+    break;
+  case 5:
+    hari = "Hari sangat super baikkkk";
+    break;
+  case 6:
+    hari = "Akhirnya yang ditunggu tunggu. liburan telah tiba";
+}
+document.write (hari);
+// Akhir Script Switch Case
+
+
+// Awal Script Do While
+document.write("<h1>Do While</h1>");
+do {
+    document.write(" Ini Adalah pehitungan For Yang ke ", b++);
+    b++;
+}
+while (b < 10);
+// Akhir Script Do While
+
+
+// Awal Script Function
+document.write("<h1>Function</h1>");
+function perkalian (x, y){
+    return x * y;
+}
+document.write("hasil perkalian dari 12 X 10 = ");
+document.write (perkalian(12, 10));
+// Akhir Script Function
+
+
+</script>
+</body>
+</html>
